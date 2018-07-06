@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-06 17:36:37</sys_created_on>
+        <sys_id>c2c2b5874f0313000c0af9aba310c777</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_150261_fcm_finance_case.x_150261_fcm.user</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_150261_fcm">f9c2b5474f0313000c0af9aba310c752</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">f9c2b5474f0313000c0af9aba310c752</sys_scope>
+        <sys_security_acl display_value="x_150261_fcm_finance_case">8ec2b5874f0313000c0af9aba310c774</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c2c2b5874f0313000c0af9aba310c777</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-06 17:36:37</sys_updated_on>
+        <sys_user_role display_value="x_150261_fcm.user" name="x_150261_fcm.user">4ac275874f0313000c0af9aba310c7f5</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

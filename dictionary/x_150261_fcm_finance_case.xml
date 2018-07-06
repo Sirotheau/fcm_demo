@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Finance Case" max_length="40" name="x_150261_fcm_finance_case" type="collection"/>
+</database>
