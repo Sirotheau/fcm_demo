@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="parent" label="Parent Case" language="en" table="x_150261_fcm_finance_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <help/>
+            <hint/>
+            <label>Parent Case</label>
+            <language>en</language>
+            <name>x_150261_fcm_finance_case</name>
+            <plural>Parent Case</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-07 15:56:16</sys_created_on>
+            <sys_id>5e556a1b4fcb13000c0af9aba310c735</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Parent Case</sys_name>
+            <sys_package display_value="Finance Case Management" source="x_150261_fcm">f9c2b5474f0313000c0af9aba310c752</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Finance Case Management">f9c2b5474f0313000c0af9aba310c752</sys_scope>
+            <sys_update_name>sys_documentation_x_150261_fcm_finance_case_parent_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-07 15:56:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

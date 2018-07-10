@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="856616c34f8313000c0af9aba310c7e0" sys_domain="global" table="x_150261_fcm_finance_case" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-08 17:52:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a689c0334fc753000c0af9aba310c7fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_150261_fcm_finance_case" name="x_150261_fcm_finance_case" sys_domain="global" view="0daa261f4fcb13000c0af9aba310c75d">856616c34f8313000c0af9aba310c7e0</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_150261_fcm_finance_case" sys_domain="global" view="0daa261f4fcb13000c0af9aba310c75d">ee8980334fc753000c0af9aba310c79a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-08 17:52:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-08 17:52:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e289c0334fc753000c0af9aba310c7fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_150261_fcm_finance_case" name="x_150261_fcm_finance_case" sys_domain="global" view="0daa261f4fcb13000c0af9aba310c75d">856616c34f8313000c0af9aba310c7e0</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_150261_fcm_finance_case" sys_domain="global" view="0daa261f4fcb13000c0af9aba310c75d">2e8980334fc753000c0af9aba310c79b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-08 17:52:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-08 17:52:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e89c0334fc753000c0af9aba310c7fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_150261_fcm_finance_case" name="x_150261_fcm_finance_case" sys_domain="global" view="0daa261f4fcb13000c0af9aba310c75d">856616c34f8313000c0af9aba310c7e0</sys_ui_form>
+            <sys_ui_section caption="Closure Info" display_value="Closure Info" name="x_150261_fcm_finance_case" sys_domain="global" view="0daa261f4fcb13000c0af9aba310c75d">268980334fc753000c0af9aba310c79c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-08 17:52:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-08 17:52:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>768904334fc753000c0af9aba310c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_150261_fcm_finance_case" name="x_150261_fcm_finance_case" sys_domain="global" view="0daa261f4fcb13000c0af9aba310c75d">856616c34f8313000c0af9aba310c7e0</sys_ui_form>
+            <sys_ui_section caption="Checklist" display_value="Checklist" name="x_150261_fcm_finance_case" sys_domain="global" view="0daa261f4fcb13000c0af9aba310c75d">2e8980334fc753000c0af9aba310c79c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-08 17:52:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_150261_fcm_finance_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-06 20:12:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>856616c34f8313000c0af9aba310c7e0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>x_150261_fcm_finance_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Finance Case Management" source="x_150261_fcm">f9c2b5474f0313000c0af9aba310c752</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Finance Case Management">f9c2b5474f0313000c0af9aba310c752</sys_scope>
+            <sys_update_name>sys_ui_form_sections_856616c34f8313000c0af9aba310c7e0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-07 16:41:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Finance Case Management" name="fcm">0daa261f4fcb13000c0af9aba310c75d</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

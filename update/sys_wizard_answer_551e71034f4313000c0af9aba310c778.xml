@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Finance Case</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Finance Case</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">e8cad1555d121300651727c3e282e84b</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-07-06 18:26:00</sys_created_on>
+        <sys_id>551e71034f4313000c0af9aba310c778</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance Case</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_150261_fcm">f9c2b5474f0313000c0af9aba310c752</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">f9c2b5474f0313000c0af9aba310c752</sys_scope>
+        <sys_update_name>sys_wizard_answer_551e71034f4313000c0af9aba310c778</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-07-06 18:26:00</sys_updated_on>
+        <table/>
+        <target_url>x_150261_fcm_finance_case.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

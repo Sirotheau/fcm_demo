@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_150261_fcm.FCMClientSideUtils</api_name>
+        <client_callable>true</client_callable>
+        <description>FCM Client Side Utils Library</description>
+        <name>FCMClientSideUtils</name>
+        <script><![CDATA[// FCM Client Side Utils Library
+// Developer: Marcello Correa
+// Date: July 8, 2018
+// Version: 1.0
+
+var FCMClientSideUtils = Class.create();
+FCMClientSideUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    type: 'FCMClientSideUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-08 18:26:31</sys_created_on>
+        <sys_id>1a51dc374fc753000c0af9aba310c753</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FCMClientSideUtils</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_150261_fcm">f9c2b5474f0313000c0af9aba310c752</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Finance Case Management">f9c2b5474f0313000c0af9aba310c752</sys_scope>
+        <sys_update_name>sys_script_include_1a51dc374fc753000c0af9aba310c753</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-08 18:51:07</sys_updated_on>
+    </sys_script_include>
+</record_update>

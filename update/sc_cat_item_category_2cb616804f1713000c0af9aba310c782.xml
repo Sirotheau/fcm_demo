@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Finance Case">686612804f1713000c0af9aba310c7fd</sc_cat_item>
+        <sc_category display_value="Quick Links">91a9e0510a0a3c7401d20d86782fc9a0</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-09 22:47:27</sys_created_on>
+        <sys_id>2cb616804f1713000c0af9aba310c782</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Quick Links.Finance Case</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_150261_fcm">f9c2b5474f0313000c0af9aba310c752</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">f9c2b5474f0313000c0af9aba310c752</sys_scope>
+        <sys_update_name>sc_cat_item_category_2cb616804f1713000c0af9aba310c782</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-09 22:47:27</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

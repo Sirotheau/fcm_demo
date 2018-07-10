@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_150261_fcm_finance_case">state=-5^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="-5"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Pending</label>
+        <name>Finance Case - Pending State</name>
+        <order>200</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-06 20:29:58</sys_created_on>
+        <sys_id>197ad2874f8313000c0af9aba310c71e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance Case - Pending State</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_150261_fcm">f9c2b5474f0313000c0af9aba310c752</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">f9c2b5474f0313000c0af9aba310c752</sys_scope>
+        <sys_update_name>sys_process_flow_197ad2874f8313000c0af9aba310c71e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-06 20:29:58</sys_updated_on>
+        <table>x_150261_fcm_finance_case</table>
+    </sys_process_flow>
+</record_update>

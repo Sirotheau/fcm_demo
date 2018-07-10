@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_150261_fcm.FCMServerSideUtils</api_name>
+        <client_callable>false</client_callable>
+        <description>FCM Server Side Utils Library</description>
+        <name>FCMServerSideUtils</name>
+        <script><![CDATA[// FCM Server Side Utils Library
+// Developer: Marcello Correa
+// Date: July 8, 2018
+// Version: 1.0
+
+var FCMServerSideUtils = Class.create();
+FCMServerSideUtils.prototype = {
+    initialize: function() {
+    },
+	
+	// ServiceNow Demo #1
+	// Added by Marcello Correa on July 9, 2018
+
+	updateFCMRecords: function() {
+	
+		var caseGR = new GlideRecord('x_150261_fcm_finance_case');
+		caseGR.addActiveQuery();
+		caseGR.query();
+		while (caseGR.next()) {
+			caseGR.short_description = gs.getProperty('x_150261_fcm.fcm.script.short_description');
+			
+			// Option #1
+			caseGR.priority = 3;
+			//caseGR.priority = gs.getProperty('x_150261_fcm.fcm.script.short_description');
+			
+			// Option #2
+			//caseGR.setValue('priority', 3);
+			//caseGR.setValue('priority', gs.getProperty('x_150261_fcm.fcm.script.short_description'));
+			
+			// Option #3 - it will only in global scope not scoped
+			//caseGR.setDisplayValue('priority', '3  Moderate');
+			
+			caseGR.update();
+		}
+
+	},
+	
+    type: 'FCMServerSideUtils()'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-08 18:25:37</sys_created_on>
+        <sys_id>bc5094774fc753000c0af9aba310c7bd</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>FCMServerSideUtils</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_150261_fcm">f9c2b5474f0313000c0af9aba310c752</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Finance Case Management">f9c2b5474f0313000c0af9aba310c752</sys_scope>
+        <sys_update_name>sys_script_include_bc5094774fc753000c0af9aba310c7bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-09 21:42:23</sys_updated_on>
+    </sys_script_include>
+</record_update>

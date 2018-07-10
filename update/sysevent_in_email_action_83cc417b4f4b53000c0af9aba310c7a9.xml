@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>FCM - Create Finance Case</name>
+        <order>10</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[// Developer: Marcello Correa
+// Date: July 8, 2018
+// Version: 1.0
+
+current.opened_by = gs.getUserID();
+current.contact_type = "email";
+current.short_description = email.subject;
+current.description = email.body_text;
+current.comments = "Received from: " + email.origemail + "\n\n" + email.body_text;
+current.insert();]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-08 22:46:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>83cc417b4f4b53000c0af9aba310c7a9</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>FCM - Create Finance Case</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Case Management" source="x_150261_fcm">f9c2b5474f0313000c0af9aba310c752</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">f9c2b5474f0313000c0af9aba310c752</sys_scope>
+        <sys_update_name>sysevent_in_email_action_83cc417b4f4b53000c0af9aba310c7a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-09 02:40:45</sys_updated_on>
+        <table>x_150261_fcm_finance_case</table>
+        <template/>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

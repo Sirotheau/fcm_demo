@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Open Incidents Age Monitor">45cb98f1d7f00200b96d45a3ce6103d2</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>pa_contributor</identity>
+        <read>true</read>
+        <role display_value="pa_contributor" name="pa_contributor">aeec30b3bf101100b96dac808c073943</role>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-09 03:40:35</sys_created_on>
+        <sys_id>b8309e7b4f0f53000c0af9aba310c79e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pa_contributor</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_150261_fcm">f9c2b5474f0313000c0af9aba310c752</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">f9c2b5474f0313000c0af9aba310c752</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_b8309e7b4f0f53000c0af9aba310c79e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-09 03:40:35</sys_updated_on>
+        <type>1</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

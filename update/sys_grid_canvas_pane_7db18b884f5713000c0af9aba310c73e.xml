@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA New Tab 5">c98e82c84fd313000c0af9aba310c7de</grid_canvas>
+        <height>6</height>
+        <portal_widget display_value="Created 2018-07-09 21:55:24">31b18b884f5713000c0af9aba310c73c</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-10 01:55:24</sys_created_on>
+        <sys_id>7db18b884f5713000c0af9aba310c73e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>c98e82c84fd313000c0af9aba310c7de</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_150261_fcm">f9c2b5474f0313000c0af9aba310c752</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">f9c2b5474f0313000c0af9aba310c752</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_7db18b884f5713000c0af9aba310c73e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-10 01:55:49</sys_updated_on>
+        <width>3</width>
+    </sys_grid_canvas_pane>
+</record_update>

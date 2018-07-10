@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <role display_value="x_150261_fcm.manager" name="x_150261_fcm.manager">a01c4acb4f4313000c0af9aba310c73c</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-06 19:27:16</sys_created_on>
+        <sys_id>c31c828b4f4313000c0af9aba310c700</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a01c4acb4f4313000c0af9aba310c73c</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_150261_fcm">f9c2b5474f0313000c0af9aba310c752</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">f9c2b5474f0313000c0af9aba310c752</sys_scope>
+        <sys_update_name>sys_embedded_help_role_c31c828b4f4313000c0af9aba310c700</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-06 19:27:16</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

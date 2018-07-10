@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <advanced_layout/>
+        <description>Cloud Dimensions Layout</description>
+        <layout><![CDATA[<p></p>
+<table style="width: 100%; background-color: #e7e9eb;">
+<tbody>
+<tr>
+<td>
+<table style="width: 100%; text-align: center; max-width: 800px; margin: auto;">
+<tbody>
+<tr>
+<td style="color: #e7e9eb; height: 60px; text-align: left; border-bottom: 1px solid #bec1c6; background-color: #e7e9eb; padding: 10px 0px 10px 25px;"><img src="/cloud_dimensions_logo.pngx" alt="" title="" style="align: baseline;" vspace="" hspace="" height="" border="" align="bottom" /></td>
+</tr>
+<tr>
+<td style="color: #303a46; text-align: left; border-bottom: 1px solid #bec1c6; font-size: 16px; background-color: #e7e9eb; padding: 25px 0px 25px 30px;">
+<p class="p1">${notification:body}</p>
+</td>
+</tr>
+<tr>
+<td style="color: #303a46; height: 50px; text-align: center; font-size: 16px; background-color: #e7e9eb; padding-left: 30px;">
+<p>To unsubscribe ${NOTIF_UNSUB+link_text="click here"} | To modify your notification settings ${NOTIF_PREFS+link_text="click here"}</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>]]></layout>
+        <name>Cloud Dimensions Layout</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-08 21:20:17</sys_created_on>
+        <sys_id>7929f8fb4f0b53000c0af9aba310c768</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Cloud Dimensions Layout</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_150261_fcm">f9c2b5474f0313000c0af9aba310c752</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">f9c2b5474f0313000c0af9aba310c752</sys_scope>
+        <sys_update_name>sys_email_layout_7929f8fb4f0b53000c0af9aba310c768</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-08 22:15:46</sys_updated_on>
+    </sys_email_layout>
+</record_update>

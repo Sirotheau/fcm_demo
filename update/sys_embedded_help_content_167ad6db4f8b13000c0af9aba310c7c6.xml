@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <content><![CDATA[<h1 class="title topictitle1">Create a Finance Case</h1>
+<div class="body taskbody">
+<p class="shortdesc">This application allows the Finance department to manage tickets opened with them.</p>
+<ol id="sys_report_template-normal__steps_ygl_2gd_z1b" class="ol steps"><li class="li step"><span class="ph cmd"> Use field &#34;Assigned To&#34; to assign the case to a finance user.<br /></span></li><li class="li step"><span class="ph cmd"><span class="ph uicontrol">Select the appropriate priority based on the nature of request</span>. Shorter or longer SLAs will be applied base on the case priority.<br /></span></li><li class="li step"><span class="ph cmd"><span class="ph uicontrol">Add work notes as necessary as you progress towards the resolution of the case.</span><br /></span></li><li class="li step"><span class="ph cmd"><span class="ph uicontrol">Once the case has been resolved, add closuse notes.</span></span></li><li class="li step"><span class="ph cmd"><span class="ph uicontrol">Finally, complete the ticket by changing the field &#34;State&#34; accordingly or by pressing the button &#34;Complete Case&#34;. </span></span></li></ol>
+</div>
+<div class="related-links">
+<div class="relinfo">
+<div class="reltitle">Related information<br />
+<div> </div>
+<div> </div>
+</div>
+</div>
+</div>
+<p> </p>]]></content>
+        <last_sync/>
+        <modifier>normal</modifier>
+        <name>fcm_finance_case</name>
+        <page>x_150261_fcm_finance_case</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>false</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-07 15:27:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>167ad6db4f8b13000c0af9aba310c7c6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>fcm_finance_case</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_150261_fcm">f9c2b5474f0313000c0af9aba310c752</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">f9c2b5474f0313000c0af9aba310c752</sys_scope>
+        <sys_update_name>sys_embedded_help_content_167ad6db4f8b13000c0af9aba310c7c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-08 18:13:46</sys_updated_on>
+        <version>k</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=167ad6db4f8b13000c0af9aba310c7c6"/>
+</record_update>

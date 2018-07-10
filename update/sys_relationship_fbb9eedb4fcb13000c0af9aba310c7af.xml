@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_150261_fcm_finance_case</basic_apply_to>
+        <basic_query_from>task_sla</basic_query_from>
+        <insert_callback/>
+        <name>Case SLAs</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	current.addQuery('task', parent.sys_id);
+
+})(current, parent);]]></query_with>
+        <reference_field>sla</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-07 16:16:17</sys_created_on>
+        <sys_id>fbb9eedb4fcb13000c0af9aba310c7af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Case SLAs</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_150261_fcm">f9c2b5474f0313000c0af9aba310c752</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">f9c2b5474f0313000c0af9aba310c752</sys_scope>
+        <sys_update_name>sys_relationship_fbb9eedb4fcb13000c0af9aba310c7af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-07 16:16:17</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=fbb9eedb4fcb13000c0af9aba310c7af"/>
+</record_update>

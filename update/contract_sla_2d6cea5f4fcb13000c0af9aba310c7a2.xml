@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="contract_sla">
+    <contract_sla action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <cancel_condition/>
+        <collection>x_150261_fcm_finance_case</collection>
+        <condition_class/>
+        <duration>1970-01-01 12:00:00</duration>
+        <duration_type/>
+        <enable_logging>false</enable_logging>
+        <name>P1 Finance Case - Resolution</name>
+        <pause_condition table="x_150261_fcm_finance_case">state=-5^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="-5"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </pause_condition>
+        <relative_duration_works_on>Task record</relative_duration_works_on>
+        <reset_action>cancel</reset_action>
+        <reset_condition/>
+        <resume_condition/>
+        <retroactive>true</retroactive>
+        <retroactive_pause>true</retroactive_pause>
+        <schedule display_value="FCM - 24x7">266836974f0f13000c0af9aba310c7e3</schedule>
+        <schedule_source>sla_definition</schedule_source>
+        <schedule_source_field/>
+        <set_start_to>opened_at</set_start_to>
+        <start_condition table="x_150261_fcm_finance_case">active=true^priority=1^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="priority" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </start_condition>
+        <stop_condition table="x_150261_fcm_finance_case">active=false^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </stop_condition>
+        <sys_class_name>contract_sla</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-07 16:26:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2d6cea5f4fcb13000c0af9aba310c7a2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>P1 Finance Case - Resolution</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Case Management" source="x_150261_fcm">f9c2b5474f0313000c0af9aba310c752</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">f9c2b5474f0313000c0af9aba310c752</sys_scope>
+        <sys_update_name>contract_sla_2d6cea5f4fcb13000c0af9aba310c7a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-07 17:24:25</sys_updated_on>
+        <target>resolution</target>
+        <timezone/>
+        <timezone_source>sla.timezone</timezone_source>
+        <type>SLA</type>
+        <when_to_cancel>no_match</when_to_cancel>
+        <when_to_resume>no_match</when_to_resume>
+        <workflow display_value="Default SLA workflow">4b6570360a0a0b3000bbacab877713f2</workflow>
+    </contract_sla>
+</record_update>

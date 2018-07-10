@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>fcm_survey_link</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+	//var link = new global.AssessmentUtils().getAssessmentInstanceURL(current.sys_id);
+	var link = 'https://' + gs.getProperty('instance_name')+  '.service-now.com/sp?id=take_survey&instance_id=' + current.sys_id;
+	var url =  '<a href="' + link + '">' + current.number + '</a>';
+	template.print(url);
+	
+})(current, template, email, email_action, event);
+
+
+
+]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-09 01:15:55</sys_created_on>
+        <sys_id>711fedb34fcb53000c0af9aba310c78f</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>fcm_survey_link</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_150261_fcm">f9c2b5474f0313000c0af9aba310c752</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">f9c2b5474f0313000c0af9aba310c752</sys_scope>
+        <sys_update_name>sys_script_email_711fedb34fcb53000c0af9aba310c78f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-09 02:08:07</sys_updated_on>
+    </sys_script_email>
+</record_update>
